@@ -1,0 +1,217 @@
+html,
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+    background: #353535;
+    font-family: sans-serif !important;
+    color: #fff;
+}
+
+.main {
+    z-index: 0
+}
+
+.single-top {
+    border-bottom: 3px solid #fccc2e;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1 {
+    color: #fccc2e;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 5px 20px 10px;
+    line-height: 39px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+}
+
+h2 {
+    color: #fccc2e;
+    font-size: 20px;
+    width: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px #000;
+}
+
+.title-1, .title-2 {
+
+    width: auto;
+    font-weight: 700;
+
+}
+
+.title-2 {
+
+    font-size: 24px;
+    color: #afafaf;
+
+}
+
+.title-1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.title-3 {
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 20px;
+    width: auto;
+    padding: 14px 24px 14px;
+    color: #fccc2e;
+
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+
+}
+
+.text-1 {
+
+    color: #000;
+    text-shadow: 0px 0px 6px #fff;
+    font-weight: 700;
+}
+
+h3 {
+    color: #fccc2e;
+    text-shadow: 0px 0px 5px #000;
+    font-size: 16px;
+    width: auto;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #fff;
+}
+
+.blok-0 {
+
+    padding: 30px 30px 16px;
+
+}
+
+.container-1 {
+    word-break: break-word;
+}
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*
+loader
+ */
+.loader {
+    display: flex;
+    width: 200px;
+    height: 44px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 20px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .03), inset 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.loader span {
+    flex: 1;
+    border: 1px solid #ff9a1a;
+    border-bottom-color: #ff6201;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(
+            -45deg,
+            rgba(255, 154, 26, 1) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 154, 26, 1) 50%,
+            rgba(255, 154, 26, 1) 75%,
+            transparent 75%,
+            transparent
+    );
+    background-size: 50px 50px;
+    animation: move 2s linear infinite;
+    overflow: hidden;
+    box-shadow: inset 0 10px 0 rgba(255, 255, 255, .2);
+}
+
+/*
+Animate the loader
+*/
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+
+@media (min-width: 768px) {
+
+    .container-1 {
+        margin: 40px;
+    }
+
+    .blok-0 {
+        margin-top: 59px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .container-1 {
+        margin: 20px;
+    }
+
+}
+
+

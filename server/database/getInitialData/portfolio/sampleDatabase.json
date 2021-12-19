@@ -1,0 +1,125 @@
+{
+  "boards": {
+    "cate:1": {
+      "angular": {
+        "name": "Angular",
+        "pins": [
+          {
+            "board": "angular",
+            "image": "https://i.pinimg.com/564x/1c/4b/63/1c4b63e9ffdf6864604edc9900de51a6.jpg",
+            "link": "https://www.behance.net/gallery/90339137/Web-App-Api-Rest-Spotify-Angular-6",
+            "title": "Angular 6 | Consumo de la Api Rest - Spotify"
+          }
+        ]
+      },
+      "litelement": {
+        "name": "LitElement",
+        "pins": [
+          {
+            "board": "litelement",
+            "image": "https://i.pinimg.com/564x/21/e3/e8/21e3e8db97e68dcf5bd7fce31760cf7e.jpg",
+            "link": "https://dennysjmarquez.medium.com/web-components-con-litelement-todo-list-2e5923d0f183",
+            "title": "LitElement 2 | Todo List"
+          }
+        ]
+      },
+      "node-express": {
+        "name": "Node.js y Express.js",
+        "pins": [
+          {
+            "board": "node-express",
+            "image": "https://i.pinimg.com/564x/91/17/7c/91177cbcb1a8976e8606d3924f27eb10.jpg",
+            "link": "https://youtube.com/playlist?list=PLIVwhETEfDf2Ge8oPBp19d_9OYcRf5KwM",
+            "title": "Node.js y Express.js | Sessions, ataques CSRF como hacerlo y evitarlo, Token CSRF y implementación"
+          }
+        ]
+      },
+      "react": {
+        "name": "React",
+        "pins": [
+          {
+            "board": "react",
+            "image": "https://i.pinimg.com/564x/3f/49/d2/3f49d2949d7e040adc1a99c30f8bb41e.jpg",
+            "link": "https://dennysjmarquez.github.io/React-Hooks/#/hooks/react-memo",
+            "title": "React | el método React.memo"
+          }
+        ]
+      },
+      "vuejs": {
+        "name": "Vue.js",
+        "pins": [
+          {
+            "board": "vuejs",
+            "image": "https://i.pinimg.com/564x/9c/b6/14/9cb614441dec90899a0fc223366a9a84.jpg",
+            "link": "https://www.youtube.com/watch?v=dINTTIDK6uw",
+            "title": "Vue.js 2 | Desarrollo de un listado de productos con carrito de compras"
+          }
+        ]
+      }
+    },
+    "cate:2": {
+      "uiux-design": {
+        "name": "HTML 5, CSS 3 y javaScript",
+        "pins": [
+          {
+            "board": "uiux-design",
+            "image": "https://i.pinimg.com/564x/1a/16/d1/1a16d1ff6da382afa147cc359fdbd2a1.jpg",
+            "link": "https://www.behance.net/gallery/90288899/Maquetado-HTML5-CSS3JavaScript-JQuery-Bootstrap-4",
+            "title": "Maquetado de un diseño de Adobe Illustrator CC 2018, HTML5, CSS3, JavaScript, jQuery, Bootstrap 4, BREF Bondarea Render Framework"
+          }
+        ]
+      }
+    },
+    "cate:3": {
+      "php-mysql": {
+        "name": "PHP - MySQL",
+        "pins": [
+          {
+            "board": "php-mysql",
+            "image": "https://i.pinimg.com/564x/65/81/95/6581953b112132b66b9d8d784048697f.jpg",
+            "link": "https://dennysjmarquez.medium.com/un-cms-parecido-a-wordpress-y-lo-llame-scorpion-cms-abd9d7005cde",
+            "title": "MVC, Composer, PHP 5, doctrine/dba, nested sets, JavaScript, JQuery, CSS3, HTML5 | Un CMS parecido a WordPress y lo llame Scorpion CMS"
+          }
+        ]
+      }
+    },
+    "cate:4": {
+      "troyanos-y-virus": {
+        "name": "Troyanos y Virus",
+        "pins": [
+          {
+            "board": "troyanos-y-virus",
+            "image": "https://i.pinimg.com/564x/6b/54/d8/6b54d8e2966cb6698d509b60f55592d6.jpg",
+            "link": "https://dennysjmarquez.medium.com/trojan-visual-basic-web-scraping-taringa-creaci%C3%B3n-del-sitio-web-www-tec-web44-net-77225a05bd2a",
+            "title": "Troyano Visual Basic, Web Scraping Taringa, Creación del sitio web www.tec.web44.net para mi servicio técnico"
+          }
+        ]
+      }
+    },
+    "cate:9": {
+      "joomla": {
+        "name": "Joomla",
+        "pins": [
+          {
+            "board": "joomla",
+            "image": "https://i.pinimg.com/564x/a2/8e/d4/a28ed48c6f8b15caf36092c2499ae98a.jpg",
+            "link": "https://raw.githubusercontent.com/dennysjmarquez/portfolio/master/2011/faegovensa-web.png",
+            "title": "Joomla 1.5 | Faegovensa c.a - use VirtueMart para la tienda online"
+          }
+        ]
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "pins": [
+          {
+            "board": "wordpress",
+            "image": "https://i.pinimg.com/564x/56/2e/a6/562ea6700a99fbee7f46e062d1252132.jpg",
+            "link": "https://dennysjmarquez.medium.com/theme-de-wordpress-parecido-al-fabuloso-deviantart-3c2e36c3c81",
+            "title": "WordPress 3.6 | Theme parecido al fabuloso deviantART"
+          }
+        ]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+.mascot-wrap {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    width: 59px;
+    user-select: none;
+}
+
+.mascot-wrap .mascot {
+    height: 59px;
+    line-height: 59px;
+    border-radius: 59px;
+    text-align: center;
+    color: #222;
+    background: white;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px #00000080;
+    border: 1px solid #333;
+    font-size: 14px;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+    width: 59px;
+    overflow: hidden;
+    transition-property: line-height, text-indent;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+    background: linear-gradient(132deg, #fff 45%, #000006 177%)
+
+}
