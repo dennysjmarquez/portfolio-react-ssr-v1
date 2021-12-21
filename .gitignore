@@ -2,6 +2,7 @@ node_modules
 *.log
 buildClient
 buildServer
+static
 .vscode
 .idea
 .DS_Store
