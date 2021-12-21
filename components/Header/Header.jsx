@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import './css/Header.css';
 import { useLocation } from 'react-router';
 import classNames from 'classnames';
-// import LinkTo from "../../core/components/LinkTo";
-
 
 const Header = React.memo(function Header() {
 	const location = useLocation();
