@@ -13,7 +13,9 @@ const Main = React.memo(function Main({ data, page, history }) {
 					? window[`__DATA_INI${getInitialData ? `_${getInitialData.toUpperCase()}` : ''}__`]
 					: data;
 
-				if (IS_CLIENT && getInitialData && !currentData) {
+				// Fix para el historial si no hay data se hace un reload para forzar que se envié la data
+				// desde el servidor esto se puede mejorar adivina el como ?? Quizás pudieran usar alguna carga asíncrona !!
+				if (IS_CLIENT && !currentData) {
 					return window.location.reload();
 				}
 

@@ -79,7 +79,7 @@ export default ({ clientStats }) =>
 		// ruta asociada a la página que se está cargando esto hace que se cargue una data de inicio
 		try {
 			if (!path.getInitialData) {
-				return resSend(null);
+				return resSend({});
 			}
 
 			const cacheEntry = serverCache.cacheEnable ? serverCache.parse(req.url) : null;
